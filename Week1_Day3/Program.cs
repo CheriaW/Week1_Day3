@@ -10,6 +10,36 @@ namespace Week1_Day3
     {
         static void Main(string[] args)
         {
+            //int firstNumber = 2;
+            //int secondNumber = 6;
+
+            //if(firstNumber > secondNumber)
+            //{
+            //    // Do Something
+            //    Console.WriteLine("You have broken math. Good job.");
+            //}
+            //else
+            //{
+            //    // Do somethung else
+            //    Console.WriteLine("That makes sense.");
+
+            //}
+
+            Console.WriteLine("What day is today?");
+            // string in front of user answer gives it a type. no "string" means no type
+            string userAnswer = Console.ReadLine();
+            if (userAnswer == "Monday")
+            {
+                Console.WriteLine("Back to work :/.");
+            } 
+            else if (userAnswer == "Friday")
+            {
+                Console.WriteLine("Project Day! Get hyped!");
+            }
+            else
+            {
+                Console.WriteLine("Lets get pancakes...");
+            }
         }
     }
 }
